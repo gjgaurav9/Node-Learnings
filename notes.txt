@@ -1,0 +1,14 @@
+Node and V8 is written in C++.
+Ecmascript is the standard Javascript is based on.
+
+First-CLass functions: operations that you can do with other types can do with functions as well.
+
+prototypal inheritance: 
+
+Note JS doesnot simply give V8 the code to implement but it wraps it into some other code that makes all these work.
+
+'require' is a function, that you pass a 'path' too.
+module.exports is what the require function returns.
+
+This works because your code is actually wrapped in a function that is given these things as function parameters.
+WHatever we write is the body of a function.
